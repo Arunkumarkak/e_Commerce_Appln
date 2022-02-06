@@ -82,9 +82,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 const Login = () => {
-  const {
-    handleSubmit
-  } = useLogin();
+  const { handleSubmit } = useLogin();
   const classes = useStyles();
   return (
     <Grid>
