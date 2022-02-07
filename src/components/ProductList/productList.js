@@ -551,7 +551,7 @@ const ProductList = () => {
             </Grid>
           )}
         </>
-        {/* Dialog Messaage */}
+        {/* Dialog Messaage popup */}
         <Dialog maxWidth={"md"} modal={false} open={showModal.open}>
           <DialogContent className={classes.pB2}>
             <Typography varaint="h6" className={classes.dialogMsg}>
